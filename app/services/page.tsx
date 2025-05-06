@@ -20,7 +20,7 @@ export default function ServicesPage() {
         "Financial analysis and reporting",
         "Compliance with accounting standards",
       ],
-      image: "/images/accounting-service.jpg",
+      image: "/images/accounting.jpg",
     },
     {
       id: "start-ups",
@@ -34,7 +34,7 @@ export default function ServicesPage() {
         "Funding application support",
         "Growth strategy planning",
       ],
-      image: "/images/startup-service.jpg",
+      image: "/images/startup.jpg",
     },
     {
       id: "assurance",
@@ -48,7 +48,7 @@ export default function ServicesPage() {
         "Compliance audits",
         "Due diligence",
       ],
-      image: "/images/assurance-service.jpg",
+      image: "/images/assurance.jpg",
     },
     {
       id: "taxation",
@@ -62,7 +62,7 @@ export default function ServicesPage() {
         "International tax",
         "Tax dispute resolution",
       ],
-      image: "/images/taxation-service.jpg",
+      image: "/images/tax.jpg",
     },
     {
       id: "mergers-and-acquisitions",
@@ -76,7 +76,7 @@ export default function ServicesPage() {
         "Post-merger integration",
         "Strategic planning",
       ],
-      image: "/images/mergers-acquisitions-service.jpg",
+      image: "/images/mergers.jpg",
     },
     {
       id: "book-keeping",
@@ -90,7 +90,7 @@ export default function ServicesPage() {
         "Payroll processing",
         "Financial reporting",
       ],
-      image: "/images/bookkeeping-service.jpg",
+      image: "/images/bookkeeping.jpg",
     },
   ]
 
@@ -160,7 +160,7 @@ export default function ServicesPage() {
         <section className="w-full py-12 md:py-24 lg:py-32 relative">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/images/dublin-financial-district.jpg"
+              src="/images/businessm.jpeg"
               alt="Dublin financial district"
               fill
               className="object-cover brightness-[0.4]"
