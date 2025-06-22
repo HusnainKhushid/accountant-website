@@ -17,28 +17,21 @@ export function Footer() {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="bg-white rounded-md p-1">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="h-6 w-6 text-primary"
-                >
-                  <path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4" />
-                  <polyline points="14 2 14 8 20 8" />
-                  <path d="M2 15h10" />
-                  <path d="M9 18l3-3-3-3" />
-                </svg>
-              </div>
-              <h3 className="text-lg font-medium">My Chartered Accountants</h3>
+              {/* Replace company name with logo image */}
+              <img src="/images/Logo.png" alt="Company Logo" className="h-8 w-auto" />
             </div>
             <p className="text-sm opacity-80">
               Your trusted partner for accounting and business advisory services in Ireland.
             </p>
+            {/* Charted Accountants Ireland association logo at the end, centered and blended */}
+            <div className="flex justify-center">
+              <img
+                src="/images/charted.png"
+                alt="Chartered Accountants Ireland"
+                className="h-12 w-auto mt-2 rounded-lg bg-white/70 shadow-sm"
+                style={{ maxWidth: "120px" }}
+              />
+            </div>
           </div>
           <div className="space-y-4">
             <h3 className="text-lg font-medium">Services</h3>
@@ -52,31 +45,7 @@ export function Footer() {
               ))}
             </ul>
           </div>
-          <div className="space-y-4">
-            <h3 className="text-lg font-medium">Company</h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <Link href="/about" className="opacity-80 hover:opacity-100 hover:text-white">
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link href="/team" className="opacity-80 hover:opacity-100 hover:text-white">
-                  Our Team
-                </Link>
-              </li>
-              <li>
-                <Link href="/careers" className="opacity-80 hover:opacity-100 hover:text-white">
-                  Careers
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="opacity-80 hover:opacity-100 hover:text-white">
-                  Contact
-                </Link>
-              </li>
-            </ul>
-          </div>
+         
           <div className="space-y-4">
             <h3 className="text-lg font-medium">Connect</h3>
             <ul className="space-y-2 text-sm">
@@ -89,18 +58,13 @@ export function Footer() {
                   info@mycharteredaccountants.ie
                 </a>
               </li>
-              <li className="flex items-center gap-2">
-                <Phone className="h-4 w-4 text-white" />
-                <a href="tel:+35315551234" className="opacity-80 hover:opacity-100 hover:text-white">
-                  +353 1 555 1234
-                </a>
-              </li>
+
               <li className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 text-white" />
                 <span className="opacity-80">123 Business Street, Dublin 2, Ireland</span>
               </li>
             </ul>
-            <div className="flex space-x-4 pt-2">
+            <div className="flex space-x-4 pt-2 items-center">
               <Link href="#" className="text-white hover:text-accent">
                 <Facebook className="h-5 w-5" />
                 <span className="sr-only">Facebook</span>

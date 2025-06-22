@@ -7,26 +7,10 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 export function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-primary text-primary-foreground">
-      <div className="container flex h-16 items-center justify-between">
-        <Link href="/" className="flex items-center space-x-2">
-          <div className="bg-white rounded-md p-1">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="h-6 w-6 text-primary"
-            >
-              <path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4" />
-              <polyline points="14 2 14 8 20 8" />
-              <path d="M2 15h10" />
-              <path d="M9 18l3-3-3-3" />
-            </svg>
-          </div>
-          <span className="text-xl font-bold">My Chartered Accountants</span>
+      <div className="container flex h-16 items-center justify-end">
+        <Link href="/" className="flex items-center space-x-2 h-full mr-auto">
+          {/* Make logo take 80% of header height */}
+          <img src="/images/Logo.png" alt="Company Logo" className="h-[80%] w-auto max-h-16" />
         </Link>
         <nav className="hidden md:flex gap-6">
           <Link href="/" className="text-sm font-medium transition-colors hover:text-accent">
@@ -51,9 +35,6 @@ export function Navbar() {
             Contact
           </Link>
         </nav>
-        <Button asChild className="hidden md:flex bg-white text-primary hover:bg-white/90">
-          <Link href="/contact">Get in Touch</Link>
-        </Button>
         <Sheet>
           <SheetTrigger asChild>
             <Button variant="ghost" size="icon" className="md:hidden text-primary-foreground">

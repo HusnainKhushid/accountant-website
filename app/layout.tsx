@@ -10,8 +10,7 @@ export const metadata = {
   description: "Expert accounting and business advisory services in Ireland",
   icons: {
     icon: "/favicon.ico",
-  },
-    generator: 'v0.dev'
+  }
 }
 
 export default function RootLayout({
