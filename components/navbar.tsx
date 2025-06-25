@@ -10,7 +10,7 @@ export function Navbar() {
       <div className="container flex h-16 items-center justify-end">
         <Link href="/" className="flex items-center space-x-2 h-full mr-auto">
           {/* Make logo take 80% of header height */}
-          <img src="/images/Logo.png" alt="Company Logo" className="h-[80%] w-auto max-h-16" />
+          <img src="/images/Logo2.png" alt="Company Logo" className="h-[80%] w-auto max-h-16" />
         </Link>
         <nav className="hidden md:flex gap-6">
           <Link href="/" className="text-sm font-medium transition-colors hover:text-accent">

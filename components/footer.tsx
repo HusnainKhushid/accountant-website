@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Facebook, Linkedin, Mail, MapPin, Phone, Twitter } from "lucide-react"
+import { Facebook, Linkedin, Mail, MapPin, Twitter } from "lucide-react"
 
 export function Footer() {
   const services = [
@@ -18,7 +18,7 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               {/* Replace company name with logo image */}
-              <img src="/images/Logo.png" alt="Company Logo" className="h-8 w-auto" />
+              <img src="/images/Logo2.png" alt="Company Logo" className="h-8 w-auto" />
             </div>
             <p className="text-sm opacity-80">
               Your trusted partner for accounting and business advisory services in Ireland.
@@ -58,7 +58,7 @@ export function Footer() {
                   info@mycharteredaccountants.ie
                 </a>
               </li>
-
+              {/* Removed phone number from footer */}
               <li className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 text-white" />
                 <span className="opacity-80">

@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Mail, MapPin, Phone } from "lucide-react"
+import { Mail, MapPin } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardTitle } from "@/components/ui/card"
@@ -49,18 +49,6 @@ export default function ContactPage() {
                           className="text-primary hover:underline mt-1 block"
                         >
                           info@mycharteredaccountants.ie
-                        </a>
-                      </div>
-                    </CardContent>
-                  </Card>
-                  <Card>
-                    <CardContent className="p-6 flex items-start gap-4">
-                      <Phone className="h-6 w-6 text-primary shrink-0 mt-1" />
-                      <div>
-                        <CardTitle className="text-base">Call Us</CardTitle>
-                        <CardDescription className="text-sm mt-1">Monday to Friday, 9am to 5pm</CardDescription>
-                        <a href="tel:+35315551234" className="text-primary hover:underline mt-1 block">
-                          +353 1 555 1234
                         </a>
                       </div>
                     </CardContent>
@@ -137,4 +125,5 @@ export default function ContactPage() {
     </div>
   )
 }
+
 
