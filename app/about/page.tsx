@@ -22,6 +22,9 @@ export default function AboutPage() {
           <p className="opacity-90">
             Our team consists of qualified chartered accountants and experienced advisors who are committed to delivering exceptional service and value.
           </p>
+          <p className="opacity-80 mt-4">
+            <strong>Office Address:</strong> 6 Fern Road, Sandyford, Dublin, D18 FP98, Ireland
+          </p>
         </section>
       </main>
       <Footer />

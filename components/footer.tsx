@@ -23,13 +23,13 @@ export function Footer() {
             <p className="text-sm opacity-80">
               Your trusted partner for accounting and business advisory services in Ireland.
             </p>
-            {/* Charted Accountants Ireland association logo at the end, centered and blended */}
-            <div className="flex justify-center">
+            {/* Charted Accountants Ireland association logo at the end, left aligned and bigger */}
+            <div>
               <img
-                src="/images/charted.png"
+                src="/images/charted.jpg"
                 alt="Chartered Accountants Ireland"
-                className="h-12 w-auto mt-2 rounded-lg bg-white/70 shadow-sm"
-                style={{ maxWidth: "120px" }}
+                className="mt-2 bg-white shadow-sm"
+                style={{ height: "64px", maxWidth: "160px", width: "auto", objectFit: "contain" }}
               />
             </div>
           </div>
@@ -61,7 +61,9 @@ export function Footer() {
 
               <li className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 text-white" />
-                <span className="opacity-80">123 Business Street, Dublin 2, Ireland</span>
+                <span className="opacity-80">
+                  6 Fern Road, Sandyford, Dublin, D18 FP98, Ireland
+                </span>
               </li>
             </ul>
             <div className="flex space-x-4 pt-2 items-center">

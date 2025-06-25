@@ -73,14 +73,15 @@ export default function ContactPage() {
                         <CardDescription className="text-sm mt-1">
                           Our office is located in central Dublin
                         </CardDescription>
-                        <p className="mt-1">123 Business Street, Dublin 2, Ireland</p>
+                        <p className="mt-1">6 Fern Road, Sandyford, Dubin, DIB FP98, Ireland</p>
                       </div>
                     </CardContent>
                   </Card>
                 </div>
                 <div className="relative h-[300px] overflow-hidden rounded-xl">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.6371009779897!2d-6.2602!3d53.3498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e9b2dc2c8ad%3A0x77c4fe617d5a5270!2sDublin%202%2C%20Ireland!5e0!3m2!1sen!2sus!4v1650000000000!5m2!1sen!2sus"
+                    title="Office Location"
+                    src="https://www.google.com/maps?q=6+Fern+Road,+Sandyford,+Dublin,+D18+FP98,+Ireland&output=embed"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
@@ -136,3 +137,4 @@ export default function ContactPage() {
     </div>
   )
 }
+
